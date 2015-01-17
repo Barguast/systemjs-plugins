@@ -29,6 +29,8 @@ Loads a number of Handlebars templates from a HTML file, exports a hash of templ
 </script>
 ```
 #####index2.js
+```
 var hbs = require("./test2.html!hbss");
 alert(hbs.hello({name: "World"}));
 alert(hbs.goodbye({name: "World"}));
+```
