@@ -34,3 +34,7 @@ var hbs = require("./test2.html!hbss");
 alert(hbs.hello({name: "World"}));
 alert(hbs.goodbye({name: "World"}));
 ```
+
+##css-inline
+
+Loads CSS as text and inserts it as a <style> rather than referencing in a <link>. 
