@@ -37,4 +37,4 @@ alert(hbs.goodbye({name: "World"}));
 
 ##css-inline
 
-Loads CSS as text and inserts it as a <style> rather than referencing in a <link>. 
+Loads CSS as text and inserts it as a `<style>` rather than referencing in a `<link>`.
